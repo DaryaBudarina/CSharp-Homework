@@ -4,12 +4,20 @@
 44 5 78 -> 78
 22 3 9 -> 22
 */
-int n1 = new Random() .Next(-999, 999);
-Console.WriteLine(n1);
-int n2 = new Random() .Next(-999, 999);
-Console.WriteLine(n2);
-int n3 = new Random() .Next(-999, 999);
-Console.WriteLine(n3);
+// Вариант для рандомных чисел:
+//int n1 = new Random() .Next();
+//Console.WriteLine(n1);
+//int n2 = new Random() .Next();
+//Console.WriteLine(n2);
+//int n3 = new Random() .Next();
+//Console.WriteLine(n3);
+
+Console.Write("Введите число 1: ");
+int n1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите число 2: ");
+int n2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите число 3: ");
+int n3 = Convert.ToInt32(Console.ReadLine());
 int max = n1;
 
 if(n2 > n1)
