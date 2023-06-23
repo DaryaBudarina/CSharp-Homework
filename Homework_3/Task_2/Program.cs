@@ -28,5 +28,5 @@ int x2 = GetIntNumber();
 int y2 = GetIntNumber(); 
 int z2 = GetIntNumber(); 
 
-double result = distance(x1, y1, z1, x2, y2, z2); 
-Print($"Расстояние между точками в 3D пространстве = {result}");
+double result = distance(x1, y1, z1, x2, y2, z2);
+Print($"Расстояние между точками в 3D пространстве = {result:F2}");
